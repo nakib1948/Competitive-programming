@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std; 
+
+#define ll long long
+#define rep(i,n) for(i=0;i<n;i++)
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define debug cout<<"debug"<<endl;
+ll a[27];
+int main()
+{
+     ///"In the name of Allah,most gracious and most merciful"///
+     
+   
+        ll i,j,x,y,z,count=0,sum=0,n,m;
+        string s;
+        cin>>n>>s;
+        for(ll i=0;i<s.size();i++)
+        {
+            if(s[i]>='A'&&s[i]<='Z')
+            {
+                ll k=s[i]-64;
+                a[k]=1;
+            }
+            else if(s[i]>='a'&&s[i]<='z')
+            {
+                ll k=s[i]-96;
+                a[k]=1;
+            }
+        }
+        for(ll i=1;i<=26;i++)
+        {
+            if(a[i]==0)
+            {
+                cout<<"NO"<<endl;
+                return 0;
+            }
+        }
+        cout<<"YES"<<endl;
+
+    return 0;
+}
+

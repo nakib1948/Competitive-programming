@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: playing with bits","srcPath":"c:\\Users\\User\\Desktop\\cpp\\playing with bits.cpp","tests":[{"id":1597083973032,"input":"1\n10 15","output":"17"}],"timeLimit":3000,"url":"c:\\Users\\User\\Desktop\\cpp\\playing with bits.cpp"}

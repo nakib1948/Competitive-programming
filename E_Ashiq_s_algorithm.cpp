@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+using namespace std; 
+
+#define ll long long
+#define rep(i,n) for(i=0;i<n;i++)
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define debug cout<<"debug"<<endl;
+
+int main()
+{
+     ///"In the name of Allah,most gracious and most merciful"///
+     
+  
+        ll i,j,x,y,z,count=0,sum=0,n,m;
+        string s,s1="xy",s2="yx";
+        vector<char>v;
+        cin>>s;
+        for(ll i=0;i<s.size();i++)
+        {
+            if(s[i]=='x' && s[i+1]=='y')
+            {
+                i++;
+            }
+            else if(s[i]=='y' && s[i+1]=='x')
+            {
+                i++;
+            }
+            else 
+            v.pb(s[i]);
+        }
+        for(auto it:v)
+        cout<<it;
+        cout<<endl;
+
+
+    return 0;
+}
+

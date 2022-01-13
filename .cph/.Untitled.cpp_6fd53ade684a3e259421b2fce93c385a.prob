@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: Untitled","srcPath":"c:\\Users\\User\\Desktop\\cpp\\Untitled.cpp","tests":[{"id":1596996128328,"input":"12 12","output":"24"},{"id":1596996617287,"input":"12 1","output":"13"}],"timeLimit":3000,"url":"c:\\Users\\User\\Desktop\\cpp\\Untitled.cpp"}
